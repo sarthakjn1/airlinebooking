@@ -18,7 +18,7 @@ module.exports = {
         allowNull: false,
         references: {
           model: 'Airplanes',
-          key: 'id'
+          key: 'airplaneId'
         },
         onDelete: 'CASCADE'
       },
@@ -27,7 +27,7 @@ module.exports = {
         allowNull: false,
         references: {
           model: 'Airports',
-          key: 'code'
+          key: 'departureAirportId'
         },
         onDelete: 'CASCADE'
       },
@@ -36,7 +36,7 @@ module.exports = {
         allowNull: false,
         references: {
           model: 'Airports',
-          key: 'code'
+          key: 'arrivalAirportId'
         },
         onDelete: 'CASCADE'
       },
