@@ -1,4 +1,6 @@
-This is a base node js project template, which anyone can use as it has been prepared, by keeping some of the most important code principles and project management recommendations. Feel free to change anything. 
+This is a microservices based flight booking Node.js Backend Project. This repository is for Flight Search microservice and BASIC CRUD Operations. This microservice interacts with Flight Booking Microservice.
+
+[Flight Booking GitHub Repo](https://github.com/sarthakjn1/Flight-Booking-Service)
 
 
 `src` -> Inside the src folder all the actual source code regarding the project will reside, this will not include any kind of tests. (You might want to make separate tests folder)
